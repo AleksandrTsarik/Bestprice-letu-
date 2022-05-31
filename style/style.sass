@@ -1,0 +1,413 @@
+@font-face
+  font-family: 'Golos Text'
+  src: url("fonts/Golos-Text_Black.woff2") format("woff2"), url("../fonts/Golos-Text_Black.woff") format("woff")
+  font-weight: 900
+  font-style: normal
+@font-face
+  font-family: 'Golos Text'
+  src: url("fonts/Golos-Text_Bold.woff2") format("woff2"), url("../fonts/Golos-Text_Bold.woff") format("woff")
+  font-weight: 700
+  font-style: normal
+@font-face
+  font-family: 'Golos Text'
+  src: url("fonts/Golos-Text_DemiBold.woff2") format("woff2"), url("../fonts/Golos-Text_DemiBold.woff") format("woff")
+  font-weight: 600
+  font-style: normal
+@font-face
+  font-family: 'Golos Text'
+  src: url("fonts/Golos-Text_Medium.woff2") format("woff2"), url("../fonts/Golos-Text_Medium.woff") format("woff")
+  font-weight: 500
+  font-style: normal
+@font-face
+  font-family: 'Golos Text'
+  src: url("fonts/Golos-Text_Regular.woff2") format("woff2"), url("../fonts/Golos-Text_Regular.woff") format("woff")
+  font-weight: 400
+  font-style: normal
+@font-face
+  font-family: 'Golos Text-vf'
+  src: url("fonts/Golos-Text_VF.woff2") format("woff2"), url("../fonts/Golos-Text_VF.woff") format("woff")
+  font-style: normal
+
+h1, h2, h3, h4, h5, h6, p
+  margin: 0
+  padding: 0
+*, *:focus, *:after, *:before
+	box-sizing: border-box
+  outline: none
+ul, ol
+  padding: 0
+  margin: 0
+  list-style: none
+ul
+  list-style: none
+a 
+  text-decoration: none
+img
+  max-width: 100%
+  vertical-align: bottom
+article, aside, footer, header, nav, section, canvas
+  display: block
+body
+  margin: 0 auto
+  width: 100vw
+  min-height: 100vh
+  max-width: 100%
+  background-color: #fff
+  min-width: 300px
+  font-family: 'Golos Text', 'Golos','Arial', 'Sans-Serif'
+  font-size: 24px
+   
+   
+body //------delete
+   margin: 0
+   padding: 0
+//------------------------DELETE-------------------------//
+
+.c-common-page-wrapper
+	*, *:focus, *:after, *:before
+		box-sizing: border-box
+		outline: none
+.b
+	background-color: #fff
+	&-wrap
+		padding: 0 10px
+	&-title
+		font-weight: 600
+		font-size: 24px
+		line-height: 1.2em
+		letter-spacing: -0.01em
+		color: #000000
+		padding: 0 0 20px
+		@media screen and ( min-width: 767px )
+			text-align: center
+		@media screen and ( min-width: 1024px )
+			font-size: 36px
+			line-height: 1.2em
+			padding: 0 0 30px
+	&-offer
+		background-color: #D4EEF6
+		padding: 40px 0 0
+		@media screen and ( min-width: 767px )
+			padding: 0
+		&-wrap
+			@media screen and ( min-width: 767px )
+				display: flex
+				align-items: center
+			@media screen and ( min-width: 1440px )
+				max-width: 80%
+				margin: 0 auto
+		&__left
+			@media screen and ( min-width: 767px )
+				padding-left: 80px
+				flex: 0 0 42%
+				max-width: 42%
+			@media screen and ( min-width: 1440px )
+				padding: 0 
+		&__right
+			margin-left: auto
+		&__title
+			font-weight: 600
+			font-size: 24px
+			line-height: 1.4em
+			letter-spacing: -0.02em
+			color: #000000
+			padding: 0 0 20px
+			@media screen and ( min-width: 1024px )
+				font-size: 36px
+				line-height: 1.2em
+			@media screen and ( min-width: 1440px )
+				font-size: 56px
+		&__subtitle
+			font-weight: 600
+			font-size: 11px
+			line-height: 1.2em
+			letter-spacing: 0.04em
+			text-transform: uppercase
+			color: #000000
+			padding-bottom: 10px
+		&__date
+			font-weight: 400
+			font-size: 16px
+			line-height: 1.3em
+			color: #000000
+			padding: 0 0 20px
+
+	&-part
+		padding: 60px 0
+		background-color: #fff
+		@media screen and ( min-width: 1024px )
+			padding: 120px 0 60px
+		&__subtitle
+			font-weight: 400
+			font-size: 16px
+			line-height: 1.3em
+			color: #000000
+			padding: 0 0 20px
+			@media screen and ( min-width: 767px )
+				max-width: 65%
+				margin: 0 auto
+				text-align: center
+				padding: 0 0 40px
+			@media screen and ( min-width: 1024px )
+				padding: 0 0 60px
+		&__list
+			display: flex
+			flex-wrap: wrap
+			padding: 20px 0 0
+			@media screen and ( min-width: 1025px )
+				max-width: 82%
+				margin: 0 auto
+			@media screen and ( min-width: 1441px )
+				max-width: 80%
+		&__item
+			flex: 0 0 100%
+			max-width: 100%
+			padding: 20px 0
+			text-align: center
+			@media screen and ( min-width: 767px )
+				flex: 0 0 33.333%
+				max-width: 33.333%
+				text-align: left
+				padding: 0 15px
+			&-img
+				padding: 0 0 20px
+				filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.03)) drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.05));
+				img
+					@media screen and ( min-width: 767px )
+						width: 100%
+			&-text
+				font-weight: 400
+				font-size: 16px
+				line-height: 1.4em
+				padding: 0 0 20px
+				color: #000000
+			&-subtext
+				font-weight: 400
+				font-size: 14px
+				line-height: 1.3em
+				color: #999999
+	
+	&-comparison
+		padding: 60px 0
+		@media screen and ( min-width: 1024px )
+			padding: 60px 0 120px
+		&__subtitle
+			font-weight: 400
+			font-size: 16px
+			line-height: 1.4em
+			color: #000000
+			padding: 0 0 40px
+			@media screen and ( min-width: 767px )
+				text-align: center
+				max-width: 65%
+				margin: 0 auto
+			@media screen and ( min-width: 1024px )
+				padding: 0 0 70px
+
+		&__list
+			@media screen and ( min-width: 767px )
+				margin: 0 auto
+				max-width: 90%
+				text-align: center
+			@media screen and ( min-width: 1240px )
+				max-width: 100%
+				display: flex
+				flex-wrap: wrap
+				justify-content: center
+		&__item
+			display: inline-block
+			padding: 0 0 15px
+			@media screen and ( min-width: 767px )
+				padding: 15px
+			@media screen and ( min-width: 1204px )
+				padding: 5px
+			&-img
+				width: 30px
+				height: 30px
+				margin-right: 20px
+				flex: 0 0 30px
+				max-width: 30px
+				img
+					width: 100%
+			&-inner
+				padding: 12px 29px
+				display: flex
+				align-items: center
+				box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15), 0px 2px 8px rgba(0, 0, 0, 0.1)
+				@media screen and ( min-width: 1440px )
+					padding: 17px 37px
+			&-text
+				font-weight: 600
+				font-size: 16px
+				line-height: 25px
+
+	&-rules
+		padding: 60px 0
+		background-color: #FAFAFA
+		@media screen and ( min-width: 1024px )
+			padding: 120px 0
+		&__subtitle
+			font-weight: 400
+			font-size: 16px
+			line-height: 25px
+			color: #000000
+			padding: 0 0 20px
+			@media screen and ( min-width: 767px )
+				text-align: center
+				margin: 0 auto
+				max-width: 70%
+			@media screen and ( min-width: 1024px )
+				padding: 0 0 60px
+				max-width: 60%
+		&__list
+			display: flex
+			flex-wrap: wrap
+			@media screen and ( min-width: 767px )
+				max-width: 78%
+				margin: 0 auto
+		&__item
+			flex:  0 0 100%
+			max-width: 100%
+			margin: 20px 0
+			@media screen and ( min-width: 767px )
+				flex: 0 0 50%
+				max-width: 50%
+				padding: 0 15px
+
+			&--pink
+				color: #966DEF
+			&--purpleness
+				color: #F77F6E
+			&-inner
+				height: 100%
+				text-align: center
+				padding: 40px 20px
+				box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.03), 0px 20px 40px rgba(0, 0, 0, 0.05)
+			&-img
+				padding: 0 0 40px
+			&-title
+				font-weight: 600
+				font-size: 18px
+				line-height: 1.2em
+				color: #000000
+				padding: 0 0 20px
+			&-subtitle
+				font-weight: 400
+				font-size: 14px
+				line-height: 20px
+				color: #999999
+
+///------tabs
+
+.b
+	&-tabs
+		background: #fff
+		padding: 60px 0
+		@media screen and ( min-width: 1024px )
+			padding: 120px 0
+		&__list
+			@media screen and ( min-width: 767px )
+				max-width: 78%
+				margin: 0 auto
+			@media screen and ( min-width: 1440px )
+				max-width: 56%
+		&__title
+			padding: 0 0 30px
+			text-align: center
+		&__link
+			text-align: center
+			line-height: 1.2em
+			padding: 0 20px 0
+			@media screen and ( min-width: 767px )
+				padding: 0 20px 50px
+			> div
+				padding: 0 0 20px
+
+
+			a
+				font-weight: 600
+				font-size: 14px
+				line-height: 20px
+				text-align: center
+				text-decoration: underline
+				color: #000000
+				@media screen and ( min-width: 767px )
+					font-size: 16px
+
+	&-tab
+		padding: 10px 0
+		&__label
+			display: flex
+			flex-direction: column
+			cursor: pointer
+			transition: .2s
+			background: #FAFAFA
+			&-name
+				font-weight: 600
+				font-size: 14px
+				line-height: 1.2em
+				text-decoration: underline
+				color: #000000
+				padding: 16px 24% 16px 16px
+				display: block
+				position: relative
+				@media screen and ( min-width: 767px )
+					font-size: 16px
+				&::after
+					content: ''
+					position: absolute
+					right: 18px
+					top: 18px
+					display: block
+					width: 12px
+					height: 12px
+					border-bottom: solid 2px #000
+					border-left: solid 2px #000
+					transform: rotate(-45deg)
+		&__ckeck
+			height: 0
+			visibility: hidden
+			opacity: 0
+			transition: .2s
+
+
+		&__input
+			position: absolute
+			left: 0
+			appearance: none
+			-moz-appearance: none
+			width: 1px
+			height: 1px
+		&__input:checked + &__label-name
+			&::after
+				transform: rotate(135deg)
+		&__input:checked ~ &__ckeck
+			height: 100%
+			visibility: visible
+			opacity: 1
+		&-content
+			font-weight: 400
+			font-size: 14px
+			line-height: 20px
+			color: #000000
+			display: block
+			padding: 0 16px 14px
+			&__text
+				font-weight: 400
+				font-size: 14px
+				line-height: 1.2em
+				color: #000000
+				padding: 0 0 14px
+				&-title
+					padding: 0 0 5px
+					display: block
+					@media screen and ( min-width: 767px )
+						font-size: 16px
+						padding: 0 0 10px
+
+			&__list
+				ul
+					padding-left: 10px
+					li
+						list-style-type: disc
+						list-style-position: inside
